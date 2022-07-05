@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Preview</title>
+    <link rel="icon" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-cream mt-4">
+    <div class="desktop:my-[25vh] flex justify-center items-center">
+        <div class="  flex flex-col w-[95%] justify-center mx-auto h-[90%] desktop:flex-row ">
+            <div class="image">
+                <img src="./images/image-product-mobile.jpg" class="rounded-t-md desktop:hidden" alt="">
+                <img src="./images/image-product-desktop.jpg"
+                    class="hidden desktop:block desktop:w-[252px] desktop:h-[378px] rounded-tl-md rounded-bl-md" alt="">
+            </div>
+            <div
+                class="content bg-white rounded-b-md desktop:w-[300px] desktop:h-[378px] desktop:rounded-tr-md desktop:rounded-br-md">
+                <p class="uppercase text-[14px] text-darkGrayishBlue font-montserrat tracking-[0.2rem] mx-4 my-4">
+                    Perfume</p>
+                <h1 class="text-veryDarkBlue text-3xl font-fraunces font-bold mx-4 my-4">Gabrielle Essence Eau De Parfum
+                </h1>
+                <p class="font-montserrat text-[14px] mx-4 my-4">A floral, solar and voluptupus interpretation composed
+                    by Olivier Polge, Perfumer-Creator for the House of CHANEL</p>
+                <div class="mx-4 mt-10 mb-4 flex justify-start items-center space-x-6 desktop:mt-[12px]">
+                    <h1 class="text-3xl font-fraunces text-darkCyan">$149.99</h1>
+                    <p class="font-montserrat font-light line-through">$169.99</p>
+                </div>
+                <button
+                    class="bg-darkCyan w-[calc(100%-2rem)] py-3  flex space-x-2 justify-center items-center rounded-md mx-4 my-4">
+                    <img src="./images/icon-cart.svg" alt="">
+                    <p class="font-montserrat font-bold text-white">Add to Cart</p>
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <div class="attribution mt-4  desktop:w-[350px] mx-auto text-[14px]">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            class="underline text-blue-500">Frontend Mentor</a>.
+        Coded by <a href="#" class="underline text-blue-500">dev-rohit0</a>.
+    </div>
+</body>
+
+</html>
